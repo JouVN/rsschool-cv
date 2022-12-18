@@ -12,54 +12,105 @@
 </head>
 <body>
     <header class="header">
-        <nav class="nav">
-            <ul>
-                <li><a href="#contacts">Contacts</a></li>
-                <li><a href="#about_myself"></a>About Myself</li>
-                <li><a href="#my_skills"></a>My skills</li>
-                <li><a href="#code_examples"></a>Code examples</li>
-                <li><a href="#experience"></a>Experience</li>
-                <li><a href="#language"></a>Language</li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about-myself" class="nav-link">About Myself</a></li>
+                    <li class="nav-item"><a href="#my-skills" class="nav-link">My skills</a></li>
+                    <li class="nav-item"><a href="#code-examples" class="nav-link">Code examples</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main class="main">
-        <section class="contacts" id="contacts">
-            <h1>
-                <pre>
-                    Shupenich Uladzislau
-
-                    Junior Developer Resume
-                </pre>
-            </h1>
-            <div>
+        <div class="container">
+            <section class="section" id="contacts">
+                <div class="section-profile">
+                    <img src="./assets/img/ava.png" alt="foto">
+                    <h1 class="section-title">
+                        Shupenich Uladzislau <br>Junior Developer Resume
+                    </h1>
+                </div>
+                <div>
+                    <ul>
+                        <li>Email: jouvayn97@gmail.com</li>
+                        <li>Telegram: @uladzislau_sh</li>
+                        <li>Discord: JouVN</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="about-myself">
+                <h2>About Myself</h2>
+                I want to become a web developer. I have a goal to master the skills of Web development to perfection. I am motivated and persistent on the path to change in my life...
+            </section>
+            <div class="container-inner">
+            <section class="section" id="my-skills">
+                <div class="section-my-skill">
+                    <div class="wapper-title">
+                        <h2>My skills</h2>
+                    </div>
                 <ul>
-                    <li>Email: jouvayn97@gmail.com</li>
-                    <li>Telegram: @uladzislau_sh</li>
-                    <li>Discord: JouVN</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Basic JS</li>
+                    <li>Git</li>
                 </ul>
+                </div>
+            </section>
+            <section class="section" id="code-examples">
+                <div class="section-code">
+                    <div class="wapper-title">
+                        <h2>Code examples</h2>
+                   </div>
+                <code>
+                    <pre>
+for (i = 1; i > 0; i++) {
+    if(i > 0){
+        console.log(i)
+    }
+}
+                    </pre>
+                </code>
+                </div>
+            </section>
+            <section class="section" id="experience">
+                <div class="section-experience">
+                    <div class="wapper-title">
+                        <h2>Experience</h2>
+                    </div>
+                    RSSchool - JS/FE Pre-School 2022Q4
+                </div>
+            </section>
+            <section class="section" id="language">
+                <div class="section-language">
+                    <div class="wapper-title">
+                        <h2>Language</h2>
+                    </div>
+                    <ul>
+                        <li>Russian</li>
+                        <li>English A1</li>
+                    </ul>
+                </div>
+            </section>
             </div>
-        </section>
-        <section class="about_myself" id="about_myself">
+        </div>
 
-        </section>
-        <section class="my_skills" id="my_skills">
-
-        </section>
-        <section class="code_examples" id="code_examples">
-
-        </section>
-        <section class="experience" id="experience">
-
-        </section>
-        <section class="language" id="language">
-
-        </section>
     </main>
 
     <footer class="footer">
-
+        <div class="container">
+            <div class="rss">
+                <a href="https://rs.school/js/"><img src="./assets/img/rs_school_js.svg" alt="rss"></a>
+            </div>
+            <div class="author">
+                Shupenich Uladzislau 2022
+                <a href="https://github.com/JouVN?tab=repositories"><img src="./assets/img/github.svg" alt="githab"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
